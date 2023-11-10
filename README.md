@@ -12,7 +12,7 @@ So much faster than manually installing everything. Without needing to use/know 
 
 If you don't want specific containers listed, this script will ask. Just respond to the prompt and enter "N" for no and "Y" for yes.
 This script also creates a docker-compose.yml file that specifies a custom docker network called "proxy". 
-For organization in your home directory you may want to make you own directory for organization.
+For organization in your home directory you may want to manually create the folders where your docker-compose.yml files will be stored. I may also update this and automate it within the script.
 
 Instructions:
 
