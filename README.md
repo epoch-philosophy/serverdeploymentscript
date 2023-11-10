@@ -9,7 +9,8 @@ So much faster than manually installing everything. Without needing to use/know 
 - PostgreSQL: Almost always find some use for a database. PostgreSQL is just one that has performed best for me. MySQL, MariaDB, especially in smaller enviornments are perfectly fine. Be sure to enter in your own credentials in the enviornment variables. (Check the server_deploy.sh file.)
 - Wireguard: A VPN server. Will need configuration.
 - Watchtower: An update utility to keep containers up to date and secure. The container is setup to execute updates every 24 hours.
-If you don't want specific containers listed, just enter "N" when prompted. If you do, enter "Y".
+
+If you don't want specific containers listed, this script will ask. Just respond to the prompt and enter "N" for no and "Y" for yes.
 
 Instructions:
 
@@ -31,3 +32,5 @@ Now execute the script:
 ```
 ./server_deploy.sh
 ```
+
+Enjoy. (Hopefully.) Feel free to change this or do whatever with it.
