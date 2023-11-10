@@ -11,6 +11,7 @@ So much faster than manually installing everything. Without needing to use/know 
 - Watchtower: An update utility to keep containers up to date and secure. The container is setup to execute updates every 24 hours.
 
 If you don't want specific containers listed, this script will ask. Just respond to the prompt and enter "N" for no and "Y" for yes.
+This script also creates a docker-compose.yml file that specifies a custom docker network called "proxy". For organization in your home directory you may want to make you own directory for organization.
 
 Instructions:
 
